@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen');
+@import url('https://fonts.googleapis.com/css2?family=Single Day');
+
+body {
+    margin: 0;
+    background-color:#141C44;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 4%;
+    font-family: 'Koulen';
+    color: #4BA43C;
+}
+
+h2 {
+    margin-top: -1%;
+    text-align: center;
+    font-size: 350%;
+    background: linear-gradient(to right, #7169e2, #f89ef4);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Single Day', sans-serif; 
+}
+
+.img img {
+    margin-left: 135%;
+    border: 10px solid white;
+    border-left: 50%;
+}
+
+.botao-coracao {
+    position: absolute;
+    top: 45%;
+    right: -90%;
+    font-size: 200%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+    transition: transform 0.2s, color 0.2s;
+}
+  
+.botao-coracao.ativo {
+    transform: scale(5.2);
+    color: red;
+}
+  
+.imagem-container {
+    position: relative;
+    display: inline-block;
+}
+
+.P1 {
+    text-align: center;
+    margin-left: -13%;
+    margin-top: -1%;
+    font-size: 300%;
+    background: linear-gradient(to right, #7169e2, #f89ef4);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Single Day', sans-serif; 
+}
+
+.botao-curtir {
+    position: absolute;
+    margin-left: 135%;
+    background: none;
+    border: none;
+    font-size: 250%;
+    cursor: pointer;
+}
+
+.botao-comentar img {
+    position: absolute;
+    background: none;
+    border: none;
+    height: 8%;
+    margin-left: 150%;
+    margin-top: -0.5%;
+    cursor: pointer;
+}
